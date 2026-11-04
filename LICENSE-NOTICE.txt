@@ -1,0 +1,1 @@
+This project packages and builds upstream Mygod/dnstt (a mirror of David Fifield's DNSTT) at Docker build time. Upstream repository identifies its license as CC0-1.0 / public domain. The Railway packaging files in this directory are provided without warranty. Review upstream license and source at https://github.com/Mygod/dnstt before production use.

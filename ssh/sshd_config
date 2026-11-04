@@ -1,0 +1,17 @@
+Port 22
+ListenAddress 127.0.0.1
+HostKey /etc/ssh/ssh_host_ed25519_key
+HostKey /etc/ssh/ssh_host_rsa_key
+PidFile /run/sshd.pid
+UsePAM no
+PasswordAuthentication yes
+KbdInteractiveAuthentication no
+PermitRootLogin no
+AllowUsers slowdns
+AllowTcpForwarding yes
+GatewayPorts no
+PermitTunnel no
+X11Forwarding no
+PermitUserEnvironment no
+PrintMotd no
+Subsystem sftp /usr/lib/openssh/sftp-server
